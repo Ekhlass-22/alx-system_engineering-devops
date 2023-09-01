@@ -1,2 +1,2 @@
 #!/bin/bash
-ekhlass betty helloworld
+chown betty hello
