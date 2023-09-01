@@ -1,2 +1,2 @@
-#!/bin/hash
-Ekhlass betty helloworld
+#!/bin/bash
+ekhlass betty helloworld
