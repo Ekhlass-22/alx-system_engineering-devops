@@ -1,0 +1,14 @@
+Here’s a visual representation of the process:
+graph TD;
+ A[User Types URL] --> B[DNS Resolution];
+ B --> C[Request Hits Server IP on Port 443];
+ C --> D[Traffic Encrypted via HTTPS/SSL];
+ D --> E[Traffic Passes Through Firewall];
+ E --> F[Request Distributed via Load Balancer];
+ F --> G[Web Server Processes Request];
+ G --> H[Application Server Generates Web Page];
+ H --> I[Application Server Requests Data from Database];
+ I --> H;
+ H --> G;
+ G --> J[Web Server Sends Response];
+ J --> K[Browser Renders Web Page];
