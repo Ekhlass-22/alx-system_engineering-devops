@@ -1,0 +1,30 @@
+What Happens When You Type `https://www.google.com` in Your Browser and Press Enter?
+
+Ever wondered what happens behind the scenes when you type a URL into your browser and hit Enter? Let's break it down step-by-step:
+
+1. DNS Request
+First, your browser sends a (DNS request) to convert the domain name (`www.google.com`) into an IP address that computers can understand.
+
+2. TCP/IP Connection
+Next, a (TCP/IP connection) is initiated. TCP ensures data packets are sent and received correctly, while IP handles routing these packets to the correct destination.
+
+3. Firewall
+The data packets pass through your computer's (firewall), which monitors and controls incoming and outgoing network traffic to ensure security.
+
+4. HTTPS/SSL
+An (HTTPS connection) is established to secure the data exchange between your browser and the web server.This is done using (SSL/TLS protocols), which encrypt the data.
+
+5. Load Balancer
+The request is then sent to a (load balancer), which distributes incoming traffic across multiple servers to manage load and improve performance.
+
+6. Web Server
+The load balancer forwards the request to a (web server). The web server processes the request and prepares the response.
+
+7. Application Server
+If needed, the web server interacts with an (application server)to handle business logic and dynamic content.
+
+8. Database
+The application server may query a (database) to retrieve or store data necessary for the request.
+
+Conclusion
+Finally, the web server sends the response back to your browser, which renders the webpage for you to see. This entire process happens in milliseconds, providing a seamless browsing experience.
